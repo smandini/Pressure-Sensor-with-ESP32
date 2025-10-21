@@ -7,6 +7,6 @@ Hey, all. I'm trying to make a digital note from my small project using Pressure
 Analog signal is a type of signal that can have any value within a range between 4 to 20mA and it is used to read real world conditions, one of them are pressure.
 
 
-https://github.com/smandini/Pressure-Sensor-with-ESP32/issues/2#issue-3536124901
+
 
 
