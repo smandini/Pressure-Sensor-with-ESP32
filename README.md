@@ -31,6 +31,8 @@ yield();
 The pressure sensor has a working voltage from ±0.5V to 5V. If there is no any load, the voltage will remain at ±0.5V. 
 Make sure that the jumper wires connecting the sensors and modules are in good condition to minimize resistance and electrical noise in the input readings.
 
+The ADC input range (or gain) can be adjusted using the following functions; however, caution must be exercised, as improper gain settings may damage the components or cause the ADS1115 to malfunction. Based on the reference image below, at the default gain 1 bit corresponds to 0.1875mV.
+
 ![17](https://github.com/user-attachments/assets/de7bbf02-ca70-4ffa-88f0-18b2008fe035)
 
 
