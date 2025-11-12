@@ -40,6 +40,10 @@ The ADC input range (or gain) can be adjusted using the following functions; how
 
 ![17](https://github.com/user-attachments/assets/de7bbf02-ca70-4ffa-88f0-18b2008fe035)
 
+Here is the graph of three pressure sensors measuring water pressure in pipes.
+
+<img width="576" height="324" alt="Screenshot (2273)" src="https://github.com/user-attachments/assets/e6729e34-5201-41a4-976c-6a54fa52b51d" />
+
 
 
 
