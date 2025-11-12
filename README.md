@@ -8,7 +8,12 @@ We need these materials to set up the pressure sensor on the pipe.
 
 The 16-bit ADC ADS1115 is used as an external ADC for the ESP32 because the ADC read from the ESP32 is non-linear, which affects the system's output. At least try calibrating first to solve the ESP32 linearity issue using [this repository](https://github.com/e-tinkers/esp32-adc-calibrate). However, if the calibration does not significantly improve the output readings, which remain non-linear or fluctuating, applying mathematical methods such as linear or polynomial regression could be considered. 
 
+Here is an example comparison between before and after raw reading from the ESP32 ADC against the calibrated reading with LUT.
+<img width="1883" height="528" alt="Untitled design (12)" src="https://github.com/user-attachments/assets/65e47807-6681-48f2-89a8-58d9cffbaae1" />
+
 Using an external ADC like ADS1115 could be another option if need multiple analog inputs from the sensors nor need higher precision reading and small signals to be measured with high resolution. It is recommended to read the [ADS1115 library](https://github.com/adafruit/Adafruit_ADS1X15/blob/master/examples/continuous/continuous.ino).
+
+
 
 ## The Scheme
 According to the ADS1115 datasheet, 
