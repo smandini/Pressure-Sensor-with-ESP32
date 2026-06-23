@@ -16,14 +16,13 @@ Using an external ADC like ADS1115 could be another option if need multiple anal
 
 ## ADS1115 and Signal Conversion
 The process of converting an analog signal into a digital signal is known as signal discretization, in which the continuous signal is sampled at discrete time intervals. The result is a digital representation consisting of discrete values corresponding to each sampling instant. This process generally involves the following stages:
-
 **Input (Transducer Filter) -> Signal Coverting (A/D Converter) -> Output**
 
 Among the stages of Analog-to-Digital Conversion (ADC), sampling is the most fundamental process. It involves capturing discrete points of a continuous analog signal and representing them as numerical values that can be stored and processed by a digital system. 
 According to the Nyquist-Shannon Sampling Theorem, 
 >the minimum sampling frequency must be at least two times the highest frequency contained in the signal to prevent aliasing and ensure accurate signal representation.
 
-## The Scheme
+## the Schematic
 According to the ADS1115 datasheet, 
 > The resistor and capacitor are needed. When the ADS1115 is converting data, it draws current in short spikes. The 0.1μF bypass capacitor supplies the momentary bursts of extra current needed from the supply. On the I2C interface, the bus wires are pulled high by pull-up resistors.
 <img width="1010" height="706" alt="Resistor" src="https://github.com/user-attachments/assets/d871eb17-2667-47ec-9cb5-4247438ddba9" />
