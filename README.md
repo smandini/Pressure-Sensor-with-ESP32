@@ -22,7 +22,7 @@ Among the stages of Analog-to-Digital Conversion (ADC), sampling is the most fun
 According to the Nyquist-Shannon Sampling Theorem, 
 >the minimum sampling frequency must be at least two times the highest frequency contained in the signal to prevent aliasing and ensure accurate signal representation.
 
-## the Schematic
+## The Schematic
 According to the ADS1115 datasheet, 
 > The resistor and capacitor are needed. When the ADS1115 is converting data, it draws current in short spikes. The 0.1μF bypass capacitor supplies the momentary bursts of extra current needed from the supply. On the I2C interface, the bus wires are pulled high by pull-up resistors.
 <img width="1010" height="706" alt="Resistor" src="https://github.com/user-attachments/assets/d871eb17-2667-47ec-9cb5-4247438ddba9" />
